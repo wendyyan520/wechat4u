@@ -1,6 +1,13 @@
-headers = {
-    "Authorization": "Bearer YOUR_API_KEY",
-    "Accept": "application/json"
-}
+def add_numbers(a, b):
+    """
+    This function adds two numbers and returns the result.
 
-response = requests.get(api_url, headers=headers)
+    :param a: The first number to be added.
+    :param b: The second number to be added.
+    :return: The sum of the two numbers.
+    """
+    return a + b
+
+# 使用函数
+sum_result = add_numbers(5, 10)
+print(f"The sum of 5 and 10 is: {sum_result}")
