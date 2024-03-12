@@ -4,6 +4,4 @@ version: 1.0.0
 codeOwners:
   - '0xF42f79f40361EA18fEA032AC3AB361Bd4E9508b3'
 quorum: 1
-btc_price = get_btc_price()
-if btc_price is not None:
-    print(f"Current BTC price: ${btc_price}")
+
